@@ -27,11 +27,17 @@ const squadre = [
 ]
 
 
-//operazioni di logica (prima parte dell'esercizio)
+//operazioni di logica 
 for (i = 0; i < squadre.length; i++) {
     const squadra = squadre[i]
     squadra.gol = Math.floor(Math.random() * 5)
     squadra.falli = Math.floor(Math.random() * 5)
-    console.log(`${squadra.nome}, ${squadra.falli}`);
-    
 }
+const squadreFalli = []
+for(i=0;i<squadre.length;i++){
+    squadreFalli.push({
+        nome:squadre[i].nome,
+        falli:squadre[i].falli,
+    })
+}
+console.log(squadreFalli);
