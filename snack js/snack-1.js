@@ -22,5 +22,4 @@ for (i = 0; i < biciclette.length; i++) {
 
 
     }
-
 }
