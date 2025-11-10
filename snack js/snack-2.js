@@ -31,8 +31,7 @@ const squadre = [
 for (i = 0; i < squadre.length; i++) {
     const squadra = squadre[i]
     squadra.gol = Math.floor(Math.random() * 5)
-    squadra.falli = Math.floor(Math.random() * 3)
-    const falliSubiti=[]
+    squadra.falli = Math.floor(Math.random() * 2)
+    console.log(`${squadra.nome}, ${squadra.falli}`);
     
-
 }
